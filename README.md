@@ -22,7 +22,7 @@ Kedro sourcecode says
 This dataset is simply subclass of SQLQueryDataSet with create_connection() class method overriden with using pyodbc. Therefore if kedro 0.19 changes DataSet class method hierarchy, ODBCQueryDataSet will raise error.
 
 # Installation
-Copy odbc_dataset.py into <your kedro project base folder>/src/<your kedro project name>/extras/dataset/
+Copy odbc_dataset.py into \<your kedro project base folder\>/src/\<your kedro project name\>/extras/dataset/
 
 # Usage
 
